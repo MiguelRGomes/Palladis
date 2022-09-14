@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Palladis Projetos Integrados</title>
+        <meta charset="utf-8"/> 
+        <link rel="icon" type="image/gif" href="img/logopalla.jpeg"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    </head>
+    <link rel="stylesheet" href="css/menu.css"> </link>
+    <link rel="stylesheet" href="css/calculo.css"> </link>
+
+    <body>
+        <img class="logoempresa" src="./img/logoempresaazul.png" />
+        <main class="col-100 menu-url">
+            <div>
+                <div class="menu">
+                        <ul>
+                            <li> <a href="homepalladis.html"> Home </a> </li>
+                            <li> <a href="palladis.html"> Palladis </a> </li>
+                            <li> <a href="projetos.html"> Projetos </a> </li>
+                            <li> <a href="calculo.html"> Simulação </a></li>
+                            <li> <a href="faleconosco.html"> Fale Conosco  </a> </li>
+                        </ul>
+                </div>
+        </main>
+        <div class="col-100">
+            <div id="imgprincipal">
+                <img src="./img/simulação.png" width="100%"/>
+            </div>
+        </div>
+        <div id= "formulario">   
+            <p id= "p2"> <strong>Digite a quantidade de metros quadrados de todos os cômodos, em seu determinado local abaixo, afim de apresentar a área total construida, para consulta da tabela, de base de preços aproximados.</strong></p>     
+            <div id="divquartos">
+                <label> Quantidade de m² de todos quartos desejados: </label>
+                <input type="number" id="quarto"/>
+            </div>
+            <div id="divcozinhas">
+                <label> Quantidade de m² de cozinhas desejadas: </label>
+                <input type="number" id="cozinha"/>
+            </div>
+            <div id="divbanheiros">
+                <label> Quantidade de m² de todos banheiros desejados: </label>
+                <input type="number" id="banheiro"/>
+            </div>
+            <div id="divgaragem">
+                <label> Quantidade de m² de garagens desejados: </label>
+                <input type="number" id="garagem"/>
+            </div>
+            <div id="divvarandacoberta">
+                <label> Quantidade de m² de varandas com cobertura desejadas: </label>
+                <input type="number" id="varandacoberta"/>
+            </div>
+            <button onClick="organizar()" type="button" id="enviar"> Simular e calcular </button>
+            <div id="divresultado"> 
+                <label>Estimativa de custo da obra sem BDI : <input id="resultado" /></label>
+            </div>
+            <div id="divresultado"> 
+                <label>Total da área construida: <input id="resultadoc" /></label>
+            </div>
+
+            
+        </div>
+        <div id="conteudo">
+            <table id="tabela"> <!-- Criamos uma tabela -->
+                <th> <!-- cabeçalho-->
+                    Cômodos
+                </th>
+                <th>
+                   Aréa contruída x Coeficientes
+                </th>
+                <th>
+                    Cub Baixo
+                </th>
+                <tr> <!-- cria linha -->
+                    <td> <!-- cria uma célula -->Quarto </td>
+                    <td> m² x 0,65 </td>
+                    <td> R$ 1.556,33 </td>
+                </tr>
+                <tr> <!-- cria linha -->
+                    <td> <!-- cria uma célula --> Cozinha </td>
+                    <td> m² x 1,40 </td>
+                    <td> R$ 1.556,33</td>
+                </tr>
+                <tr> <!-- cria linha -->
+                    <td> <!-- cria uma célula --> Banheiro </td>
+                    <td> m² x 1,40</td>                 
+                    <td> R$ 1.556,33 </td>
+                </tr>
+                <tr> <!-- cria linha -->
+                    <td> <!-- cria uma célula --> Garagem Coberta </td>
+                    <td>  m² x 0,60</td>                 
+                    <td> R$ 1.556,33 </td>
+                </tr>
+                <tr> <!-- cria linha -->
+                    <td> <!-- cria uma célula --> Varanda </td>
+                    <td> m² x 1,20</td>                 
+                    <td> R$ 1.556,33 </td>
+                </tr>
+            </table>
+        </div>
+        <div id="barra">
+
+        </div>
+        <footer>
+            <div class="col-100 footer">
+                <div id="content1">
+                    <div class="col-4">
+                        <img src="img/logoempresaazul.png" id="logorodape">
+                    </div>
+                    <div class="col-4">
+                        <a href="https://www.instagram.com/palladis.engenharia/" class="redes" target="_blank"><img src="img/insta.ico" alt="Logo do Instagram" width="48px" height="48px"></a>
+
+                        <a href="https://api.whatsapp.com/send?phone=5516993814208" class="redes" target="_blank"><img src="img/whats.ico" alt="Logo do WhatsApp" width="48px" height="48px"></a>
+            
+                        <a href="https://www.facebook.com/palladis.engenharia" class="redes" target="_blank"><img src="img/face.ico" alt="Logo Facebook" width="48px" height="48px"></a>
+                    </div>
+                    <div class="col-4">
+                    </div>
+                    <div class="col-4">
+                        <h3><b>Contatos</b></h3>
+                        <p > (16) 99397-0967<p>
+                                <p >  Email: palladis.eng@gmail.com<p>
+                                        <p > Rua Esperança,888 Residencial Paraíso, Franca, Brasil 14403-148 <p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="col-100 footer-2">
+            <div class="content">
+
+                <p>
+                    © 2021 Palladis Engenharia criado por Miguel Rodrigues e Arthur Henrique
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/calculo.js"> </script>
+
+    </body>
+</html>

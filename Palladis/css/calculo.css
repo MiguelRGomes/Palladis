@@ -1,0 +1,61 @@
+#formulario {
+    outline: #3e6e9f 2px solid; /* borda externa azul de 2px de espessura */
+    padding: 20px; /* espaçãmento interno de 10 pixels (bolinha) */
+    margin: 50px auto; /* espaçamento externo de 40 pixels centralizado */
+    height: 530px;
+    width: 680px;
+}
+#enviar {
+    margin: 15px;
+    position: relative;
+    padding: 5px;
+    color: white;
+    border:2px solid #3e6e9f;
+    text-shadow:0px 1px 0px #3e6e9f;
+    border:2px solid #3e6e9f;
+    border-radius:4px;
+    display:inline-block;
+    font-size:15px;
+    padding:6px 12px;
+    text-decoration:none;
+    background-color: white;
+    border-color:#3e6e9f;
+    background:linear-gradient(to bottom, #8ea9c5 5%, #3e6e9f 100%);
+    color:white;
+    text-shadow:0px 1px 0px #3e6e9f;
+}
+#divquartos, #divcozinhas, #divbanheiros, #divgaragem, #divvarandacoberta{                
+    padding: 15px;
+    text-align: justify;
+}
+#tabela{
+    font-family: Arial, Helvetica, sans-serif; /* tipo da fonte */
+    margin-top: 80px;
+    width: 80%; /* ocupa 100% dos 800px */
+    border-collapse: collapse;
+    height: 300px;
+    margin: auto;
+}
+label{
+    color: #3e6e9f;
+}
+strong{
+    color: #3e6e9f;
+}
+td, th {
+    border: 1px solid #ddd;
+}
+th {
+    background: #3e6e9f; /* cabeçalho com fundo verde */
+    color: #ff8314;  /* cabeçalho com texto branco */ 
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+tr:hover { /* qunado passar o mouse em cima da linha */
+    background-color: #9db7d1;
+}
+#quarto, #cozinha, #banheiro, #garagem, #varandacoberta, #resultado, #resultadoc{
+    border: 2px solid #3e6e9f;
+}

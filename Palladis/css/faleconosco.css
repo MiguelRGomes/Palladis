@@ -1,0 +1,61 @@
+#formulario{
+    outline: #3e6e9f 2px solid;
+    padding: 10px;
+    width: 550px;
+    margin: 40px auto;
+}
+#nome{
+    float: left;
+    margin: 10px;
+    border:2px solid #3e6e9f; 
+}
+#email {
+    float: right;
+    margin: 10px;
+    border:2px solid #3e6e9f; 
+}
+#assunto {
+    float: left;
+    margin: 10px;
+    height: 30px;
+    color: #3e6e9f;
+    border:2px solid #3e6e9f;        
+} 
+#mensagem{
+    border:2px solid #3e6e9f;
+    margin: 10px;
+    width: 510px;
+    height: 150px;
+    resize: none;
+ 
+}
+#enviar {
+    margin: 18px;
+    position: relative;
+    padding: 5px;
+    color: #3e6e9f;
+    border:2px solid #3e6e9f;
+    text-shadow:0px 1px 0px #3e6e9f;
+    border:2px solid #3e6e9f;
+    border-radius:4px;
+    display:inline-block;
+    font-size:15px;
+    padding:6px 12px;
+    text-decoration:none;
+    background-color: white;
+    border-color:#3e6e9f;
+    background:linear-gradient(to bottom, #8ea9c5 5%, #3e6e9f 100%);
+    color:#fff;
+    text-shadow:0px 1px 0px #3e6e9f;
+
+}
+
+#enviar:hover {
+    background:linear-gradient(to bottom, #3e6e9f 5%, #8ea9c5 100%);
+    }
+
+.h2cor-a{
+    color:#3e6e9f;
+    margin: 20px;
+    text-align: center;
+}

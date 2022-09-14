@@ -1,0 +1,139 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logoempresa {
+    position: absolute;
+    right: 30pt;
+    top: 6px;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #3e6e9f;
+    margin-left: 80px;
+    height: 50px;
+}
+main, .content {
+    
+    width: 980px;
+}
+.menu-url {
+    height: 70px;
+    border-bottom: 4px solid #3e6e9f;
+    width: 100%;
+}
+.menu ul li a:hover {
+    color: white;  
+    background-color: #ff8314;
+    padding: 7px;
+    border-bottom: 2px solid #3e6e9f;
+}
+
+.menu ul li a {
+    color: #3e6e9f;
+    list-style: none;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 95px;
+    font-family: 
+    
+}
+.texto-destaque {
+    text-align: center;
+    margin-left: 200px;
+}
+.texto-destaque strong {
+    color: #3e6e9f;
+}
+.texto-destaque h1 {
+    text-transform: arial;
+    font-size: 30px;
+    color: #3e6e9f;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: black;
+}
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 45%;
+    float: left;
+    position: relative;
+    color: #3e6e9f;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+h3 {
+    font-size: ;
+}
+#barra{
+    background-color: #3e6e9f;
+    width: 100%;
+    height: 10px;
+}
+#content1{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 30px;
+}
+
+#logorodape{
+    margin: 65px;
+    
+}
+
+
+.footer h3 {
+    text-align: left;
+    margin: 3px;
+    line-height: 15px;
+    width: 55%;
+}
+
+.footer {
+    background-color: white;
+    color: #3e6e9f;
+}
+
+.footer-2 {
+    background-color: #3e6e9f;
+    color: white;
+    height: 90px;
+    margin-top: 280px;
+}
+
+
+.footer p {
+    width: 90%;
+    text-align: left;
+    line-height: 20px;
+}
+
+.footer-2 p {
+    padding: 10px;
+}
+
+.footer a {
+    
+    margin: 5px;
+}
+
+
